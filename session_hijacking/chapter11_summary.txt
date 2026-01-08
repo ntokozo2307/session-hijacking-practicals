@@ -1,0 +1,33 @@
+CHAPTER 11 - SESSION HIJACKING PRACTICALS
+==========================================
+
+PRACTICAL 11.1: XSS COOKIE THEFT
+---------------------------------
+Status: Completed
+Objective: Demonstrate reflected XSS for session theft
+Tools: Apache, PHP, curl
+Evidence: cookies.txt, practical_11.1_evidence.txt
+Security Lesson: Input sanitization prevents XSS attacks
+
+PRACTICAL 11.2: NETWORK SIDEJACKING
+------------------------------------
+Status: Completed
+Objective: Capture unencrypted session cookies
+Tools: Wireshark, tcpdump
+Evidence: practical_11.2_evidence.txt
+Security Lesson: HTTPS prevents network eavesdropping
+
+KEY FINDINGS:
+1. Unvalidated inputs lead to XSS vulnerabilities
+2. Unencrypted HTTP exposes session cookies
+3. HttpOnly cookies mitigate XSS-based theft
+4. HTTPS is essential for session security
+
+COURSE ALIGNMENT:
+- TUT Giyani Campus: Student portal security
+- Telkom SA: Customer portal protection
+- Home Affairs: Citizen services security
+
+IMPLEMENTATION DATE: October 2025
+STUDENT: [Your Name/ID]
+COURSE: Computer Security 226R
